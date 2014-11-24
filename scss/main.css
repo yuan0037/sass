@@ -1,0 +1,421 @@
+/*********************
+Use SASS to write your CSS
+SASS files are:
+
+main.scss
+which will import:
+
+normalize.scss
+variables.scss
+mixins.scss
+sticky-footer.scss
+
+You may divide your sass into addition files as you wish.
+Eg: 
+- grid.scss
+- buttons.scss
+*********************/
+/* line 2, /Applications/MAMP/htdocs/mad9013/sass/scss/sticky-footer.scss */
+html {
+  position: relative;
+  min-height: 100%; }
+
+/* line 6, /Applications/MAMP/htdocs/mad9013/sass/scss/sticky-footer.scss */
+.row:after {
+  content: "";
+  display: block; }
+
+/* line 10, /Applications/MAMP/htdocs/mad9013/sass/scss/sticky-footer.scss */
+.row {
+  margin-bottom: 40px; }
+
+/* line 14, /Applications/MAMP/htdocs/mad9013/sass/scss/sticky-footer.scss */
+.foot {
+  margin: 1rem;
+  position: absolute;
+  clear: both;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px; }
+
+/* line 55, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+/* line 63, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+audio, canvas, video {
+  display: inline-block; }
+
+/* line 74, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 84, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+[hidden], template {
+  display: none; }
+
+/* line 97, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+html {
+  background: #fff;
+  color: #000;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* line 113, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+html, button, input, select, textarea {
+  font-family: sans-serif; }
+
+/* line 119, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+body {
+  margin: 0; }
+
+/* line 132, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+a {
+  background: transparent; }
+  /* line 139, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+  a:focus {
+    outline: thin dotted; }
+  /* line 146, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+  a:hover, a:active {
+    outline: 0; }
+
+/* line 159, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 164, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+/* line 169, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+/* line 174, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+/* line 179, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+/* line 184, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0; }
+
+/* line 192, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 199, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+b, strong {
+  font-weight: bold; }
+
+/* line 211, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+dfn {
+  font-style: italic; }
+
+/* line 217, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 236, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/* line 246, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/* line 254, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/* line 271, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 279, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+small {
+  font-size: 80%; }
+
+/* line 287, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 294, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 298, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 350, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+img {
+  border: 0; }
+
+/* line 359, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 369, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+figure {
+  margin: 0; }
+
+/* line 386, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 397, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal; }
+
+/* line 414, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline; }
+
+/* line 426, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+button, input {
+  line-height: normal; }
+
+/* line 436, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+button, select {
+  text-transform: none; }
+
+/* line 451, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 462, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+button[disabled], input[disabled] {
+  cursor: default; }
+
+/* line 470, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 479, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+/* line 490, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 498, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+  /* line 507, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+  input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+/* line 517, /Applications/MAMP/htdocs/mad9013/sass/scss/normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 26, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.iconic * {
+  fill: pink;
+  stroke: pink; }
+
+/* line 31, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.iconic-property-accent {
+  fill: #AA888F;
+  stroke: gray; }
+
+/* line 36, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.btn {
+  color: #AA888F; }
+
+/* line 39, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.wrapper {
+  margin: 1rem; }
+
+/* line 43, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+h2 {
+  font-family: Source Sans Pro; }
+
+/* line 46, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.foot {
+  font-family: Source Sans Pro; }
+
+/* line 49, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.col-3 {
+  font-family: Poiret One; }
+
+/* line 52, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.col-4 {
+  font-family: Indie Flower; }
+
+/* line 56, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.row {
+  border: 10px solid #fff;
+  position: relative;
+  text-align: center;
+  box-shadow: 1px 1px 1px 2px #e6e6e6;
+  cursor: default; }
+
+/* line 68, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.col-4 h4 {
+  /*1*/
+  transform: translateY(-10px);
+  opacity: 50;
+  font-family: Raleway, serif;
+  transition: all 0.2s ease-in-out; }
+
+/* line 74, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.col-4 p {
+  transform: translateY(10px);
+  opacity: 50;
+  transition: all 0.2s linear; }
+
+/* line 79, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.col-4 .btn {
+  transform: translateY(10px);
+  opacity: 50;
+  transition: all 0.2s linear; }
+
+/* line 86, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.col-4:hover h4, .col-4:hover p {
+  opacity: 1;
+  transform: translateY(0px); }
+
+/* line 90, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.col-4:hover .btn {
+  transform: translateY(0px) scale(1.2);
+  opacity: 50;
+  transition: all 0.2s linear; }
+
+@media (min-width: 800px) {
+  /* line 97, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+  .col-3 {
+    min-height: 100px;
+    float: left;
+    width: 31.33333%;
+    margin-left: 2%; }
+    /* line 5, /Applications/MAMP/htdocs/mad9013/sass/scss/mixins.scss */
+    .col-3:first-child {
+      margin-left: 0; }
+    /* line 9, /Applications/MAMP/htdocs/mad9013/sass/scss/mixins.scss */
+    .col-3:last-child {
+      clear: right; }
+
+  /* line 105, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+  .col-4 {
+    min-height: 100px;
+    float: left;
+    width: 22%;
+    margin-left: 3%; }
+    /* line 5, /Applications/MAMP/htdocs/mad9013/sass/scss/mixins.scss */
+    .col-4:first-child {
+      margin-left: 0; }
+    /* line 9, /Applications/MAMP/htdocs/mad9013/sass/scss/mixins.scss */
+    .col-4:last-child {
+      clear: right; }
+ }
+
+@media (min-width: 400px) and (max-width: 799px) {
+  /* line 115, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+  .iconic {
+    width: 64px;
+    height: 64px; }
+
+  /* line 120, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+  .col-3 {
+    min-height: 100px;
+    float: left;
+    width: 31.33333%;
+    margin-left: 2%; }
+    /* line 5, /Applications/MAMP/htdocs/mad9013/sass/scss/mixins.scss */
+    .col-3:first-child {
+      margin-left: 0; }
+    /* line 9, /Applications/MAMP/htdocs/mad9013/sass/scss/mixins.scss */
+    .col-3:last-child {
+      clear: right; }
+
+  /* line 127, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+  .col-4 {
+    min-height: 100px;
+    float: left;
+    width: 47%;
+    margin-left: 3%; }
+    /* line 5, /Applications/MAMP/htdocs/mad9013/sass/scss/mixins.scss */
+    .col-4:first-child {
+      margin-left: 0; }
+    /* line 9, /Applications/MAMP/htdocs/mad9013/sass/scss/mixins.scss */
+    .col-4:last-child {
+      clear: right; }
+ }
+
+@media (max-width: 399px) {
+  /* line 137, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+  .col-3 {
+    min-height: 100px;
+    float: left;
+    width: 98%;
+    margin-left: 2%; }
+    /* line 5, /Applications/MAMP/htdocs/mad9013/sass/scss/mixins.scss */
+    .col-3:first-child {
+      margin-left: 0; }
+    /* line 9, /Applications/MAMP/htdocs/mad9013/sass/scss/mixins.scss */
+    .col-3:last-child {
+      clear: right; }
+
+  /* line 144, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+  .col-4 {
+    min-height: 100px;
+    float: left;
+    width: 97%;
+    margin-left: 3%; }
+    /* line 5, /Applications/MAMP/htdocs/mad9013/sass/scss/mixins.scss */
+    .col-4:first-child {
+      margin-left: 0; }
+    /* line 9, /Applications/MAMP/htdocs/mad9013/sass/scss/mixins.scss */
+    .col-4:last-child {
+      clear: right; }
+ }
+
+/* line 151, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.btn {
+  border: none; }
+
+/* line 154, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+.row {
+  overflow: hidden; }
+
+/* line 158, /Applications/MAMP/htdocs/mad9013/sass/scss/main.scss */
+p {
+  line-height: 1.5rem; }
+
+/*# sourceMappingURL=main.css.map */

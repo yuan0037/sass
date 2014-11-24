@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "file": "sticky-footer.css",
+  "sources": [
+    "sticky-footer.scss",
+    "variables.scss"
+  ],
+  "names": [],
+  "mappings": ";AACA;EACI,UAAS;EACT,YAAW;;;AAEf,IAAI;EACF,SAAS;EACT,SAAS;;;AAEX;EACI,eAAe;;;AAGnB;EACI,QCdW;EDeX,UAAS;EACT,OAAO;EACP,QAAO;EACP,MAAM;EACN,OAAM;EACN,QAAQ",
+  "sourceRoot": ""
+}

@@ -1,0 +1,25 @@
+/* line 2, /Applications/MAMP/htdocs/mad9013/sass/scss/sticky-footer.scss */
+html {
+  position: relative;
+  min-height: 100%; }
+
+/* line 6, /Applications/MAMP/htdocs/mad9013/sass/scss/sticky-footer.scss */
+.row:after {
+  content: "";
+  display: block; }
+
+/* line 10, /Applications/MAMP/htdocs/mad9013/sass/scss/sticky-footer.scss */
+.row {
+  margin-bottom: 40px; }
+
+/* line 14, /Applications/MAMP/htdocs/mad9013/sass/scss/sticky-footer.scss */
+.foot {
+  margin: 1rem;
+  position: absolute;
+  clear: both;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px; }
+
+/*# sourceMappingURL=sticky-footer.css.map */
